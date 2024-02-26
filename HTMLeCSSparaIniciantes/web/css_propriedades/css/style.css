@@ -1,23 +1,32 @@
+body {
+  margin: 0px;
+}
+
+div {
+  background: lightblue;
+  height: 100vh;
+  width: calc(100vw - 100px);
+}
+
+
+
+
+
+
+
+
+
+
+/* 
 .px { font-size: 32px}
 
-
-/* funciona em relação ao seu elemento pai*/
+funciona em relação ao seu elemento pai
 div {font-size: 200%}
 .em { font-size: 2em} 
 
 .rem { font-size: 2rem}
 
-
-
-
-
-
-
-
-
-
-
-/* a {
+a {
   background: darkblue;
   color: white;
   text-decoration: none;
