@@ -10,11 +10,26 @@
 h1 {
   background: #fff;
   padding: 1rem 2rem;
-  margin: auto; 
-
+  margin: auto;
 }
 
+.pattern {
+  height: 300px;
+  background-color: lightcoral;
+  background-image: url("../img/pattern.svg");
+  /* background-repeat: repeat; */
+  background-size: 500px;
+}
 
+.linear {
+  height: 200px;
+  background-image: linear-gradient(to right, lightblue 0%, lightcoral 10%, blue 20%, green 30%);
+}
+
+.radial {
+  height: 200px;
+  background-image: radial-gradient(circle, green, lightblue, red);
+}
 
 
 
