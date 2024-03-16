@@ -30,7 +30,8 @@ p {
 a {text-decoration: none;}
 
 /* menu */
-div.menu {
+ul {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -47,13 +48,13 @@ div.menu {
 }
 
 /* configurações de conteúdos */
-div.conteudo {
+main.conteudo {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   max-width: 1000px;
 }
 
-div.introducao {
+header.introducao {
   background: #fff;
   padding: 40px;
   text-align: right;
@@ -96,12 +97,12 @@ h2.subtitulo {
 
 
 /* vantagens */
-div.vantagens {
+section.vantagens {
   background: #fff;
   padding: 40px;
 }
 
-div.subtitulo {
+.subtitulo {
   color: rgba(0, 0, 0, 0.2);
   font-size: 40px;
   padding: 40px;
@@ -118,7 +119,7 @@ div.detalhes {
   padding: 20px;
 }
 
-div.vantagem-item {
+header.vantagem-item {
   padding: 40px;
   
   display: grid;
@@ -130,7 +131,7 @@ div.vantagem-item {
   grid-column: 2;
 }
 
-div.rodape {
+footer {
   background: #ffffff;
   box-sizing: border-box;
   padding: 40px;
