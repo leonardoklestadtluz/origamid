@@ -1,10 +1,10 @@
 # Utilizar tags semânticas [X]
 nav, article, ul e outras. Utilizar aria-label quando possível.
 
-# Modificar as unidades []
+# Modificar as unidades [X]
 Pelo menos para as tipografias e valores relacionados as mesmas, mudar de PX para REM.
 
-# Modificar o background do subtitulo []
+# Modificar o background do subtitulo [X]
 Adicionar o padrão svg disponível (onda.svg).
 
 # Mudar os estados de alguns elementos ao passar o mouse por cima []
