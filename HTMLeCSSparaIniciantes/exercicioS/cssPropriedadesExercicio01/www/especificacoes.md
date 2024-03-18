@@ -7,7 +7,7 @@ Pelo menos para as tipografias e valores relacionados as mesmas, mudar de PX par
 # Modificar o background do subtitulo [X]
 Adicionar o padrão svg disponível (onda.svg).
 
-# Mudar os estados de alguns elementos ao passar o mouse por cima []
+# Mudar os estados de alguns elementos ao passar o mouse por cima [X]
 Borda vermelha nos links do menu, vermelho escuro no botão (#900) e borda esquerda vermelha nas vantagens.
 
 # Pintar os itens ímpares []
