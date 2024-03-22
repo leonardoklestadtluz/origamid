@@ -32,6 +32,11 @@ p {
 
 a {text-decoration: none;}
 
+/* logo */
+section#logo {
+  margin-top: 6rem;
+}
+
 /* menu */
 ul {
   list-style: none;
@@ -136,10 +141,13 @@ div.detalhes {
 
 header.vantagem-item {
   padding: 4rem;
-  
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem 2rem;
+}
+
+.vantagem-item>p::first-line {
+  background-color: #5f1010;
 }
 
 header.vantagem-item:hover {
