@@ -10,8 +10,8 @@ Adicionar o padrão svg disponível (onda.svg).
 # Mudar os estados de alguns elementos ao passar o mouse por cima [X]
 Borda vermelha nos links do menu, vermelho escuro no botão (#900) e borda esquerda vermelha nas vantagens.
 
-# Pintar os itens ímpares []
+# Pintar os itens ímpares [X]
 Das vantagens com o tom de cinza claro (o background com #f7f7f7)
 
-# Substituir o span decorativo []
+# Substituir o span decorativo [X]
 Pelo pseudo element ideal
