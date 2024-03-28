@@ -1,0 +1,23 @@
+body {
+  color: #141414;
+  font-family: 'Fira Sans', Arial, sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
