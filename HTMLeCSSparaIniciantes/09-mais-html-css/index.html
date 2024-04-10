@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <form action="./">
+    <label for="name">Nome</label>
+    <input type="text" name="name" id="name">
+
+    <label for="senha">Senha</label>
+    <input type="password" name="senha" id="senha">
+
+    <div class="checkbox">
+      <input type="checkbox" id="termos" name="termos" value="aceito">
+      <label for="termos">Aceito os Termos e Condições da Empresa</label>
+    </div>
+
+    <div class="checkbox">
+      <input type="checkbox" id="anuncios" name="anuncios" value="aceito">
+      <label for="anuncios">Desejo receber anúncios</label>
+    </div>
+
+    <p>Entrega:</p>
+    <div class="radio">
+      <input type="radio" id="retirada" name="retirada">
+      <label for="retirada">Retirar no local</label>
+    </div>
+    
+    <div class="radio">
+      <input type="radio" id="entrega" name="retirada">
+      <label for="entrega">Entrega em casa</label>
+    </div>
+
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email">
+   
+    <label for="numero">Idade</label>
+    <input type="number" name="numero" id="numero">
+    
+    <label for="data">Saída do Hotel</label>
+    <input type="date" name="data" id="data">
+
+    <button>Enviar</button>
+  </form>
+</body>
+</html>
