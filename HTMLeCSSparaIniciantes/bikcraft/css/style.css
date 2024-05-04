@@ -52,7 +52,10 @@ img {
 .header-menu a {
     color: #ffffff;
     display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
     font-size: 18px;
+    font-weight: 400;
     padding: 16px 0px;
     position: relative;
 }
@@ -135,19 +138,26 @@ img {
 }
 
 .introducao h1 {
+    font-family: "Poppins" sans-serif;
     font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
     line-height: 1.125;
-
     margin-bottom: 32px;
+
 }
 
 .introducao h1 span {color: #ffbb00;}
 
 .introducao p {
     color: #b2b2b2;
+    font-family: "Roboto";
     font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 1.5;
     margin-bottom: 32px;
+
 }
 
 .introducao a {
@@ -156,8 +166,10 @@ img {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     color: #322200;
     display: inline-block;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 600;
     line-height: 1.33;
     padding: 16px 32px;
     text-transform: uppercase;
