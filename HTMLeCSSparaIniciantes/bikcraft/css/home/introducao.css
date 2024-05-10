@@ -48,10 +48,7 @@
       gap: 32px;
   }
   .introducao-conteudo {padding-bottom: 0px;}
-  .introducao h1 {
-      font-size: 32px;
-      margin-bottom: 16px;
-  }
+  .introducao h1 {margin-bottom: 16px;}
   .introducao img {
       height: 300px;
       width: 100%;
