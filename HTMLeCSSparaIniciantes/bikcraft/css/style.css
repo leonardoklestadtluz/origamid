@@ -5,3 +5,4 @@
 @import "./home/introducao.css"; /* estilos da introdução */
 @import "./utilidades/componentes.css"; /* componentes */
 @import "./bicicletas/bicicletas-lista.css"; /* estilos da sessão bicicletas */
+@import "./home/tecnologia.css"; /* estilos da sessão de tecnologia */
