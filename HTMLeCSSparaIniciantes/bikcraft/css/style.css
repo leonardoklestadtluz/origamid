@@ -1,8 +1,16 @@
-@import "./global/global.css"; /* estilo global */
-@import "./utilidades/tipografia.css"; /* variáveis e estilo de tipografia */
-@import "./utilidades/cores.css"; /* variáveis e estilo de cores */
-@import "./global/header.css"; /* estilos do header */
-@import "./home/introducao.css"; /* estilos da introdução */
-@import "./utilidades/componentes.css"; /* componentes */
-@import "./bicicletas/bicicletas-lista.css"; /* estilos da sessão bicicletas */
-@import "./home/tecnologia.css"; /* estilos da sessão de tecnologia */
+/* global */
+@import "./global/global.css";
+@import "./global/header.css";
+
+/* bicicletas */
+@import "./bicicletas/bicicletas-lista.css";
+
+/* home */
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+
+/* utilidades */
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/componentes.css";
