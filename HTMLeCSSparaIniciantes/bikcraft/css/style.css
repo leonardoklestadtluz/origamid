@@ -1,6 +1,7 @@
 /* global */
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* bicicletas */
 @import "./bicicletas/bicicletas-lista.css";
