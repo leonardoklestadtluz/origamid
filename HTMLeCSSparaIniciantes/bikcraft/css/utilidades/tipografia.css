@@ -56,6 +56,14 @@
   line-height: 1.5;
 }
 
+.font-1-l-b {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
 .font-2-l,
 .font-2-l-b {
   font-family: "Roboto";
