@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 60px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;}
+
+h1 {
+  color: #111;
+  text-align: center;
+}
+
+.info-produto {
+  background-color: #111;
+  border-radius: 10px;
+  color: #b2b2b2;
+  margin-top: 10px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.carro {
+  margin-top: 30px;
+}
+
+.bicicleta {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+span {
+  color: #febe01;
+}
+
+a {
+  background-color: #febe01;
+  border: none;
+  border-radius: 5px;
+  color: #332200;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 10px 7px;
+}
+
+h2 {
+  margin-bottom: 18px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
