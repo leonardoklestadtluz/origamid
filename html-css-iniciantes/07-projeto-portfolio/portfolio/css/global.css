@@ -32,7 +32,7 @@ img {
   line-height: 1;
   text-transform: uppercase;
   word-break: break-all;
-  max-width: 4ch;
+  max-width: 4ch !important;
 }
 
 @media (max-width: 800px) {
@@ -40,5 +40,10 @@ img {
     font-size: 3rem;
     text-transform: capitalize;
     max-width: initial;
+  }
+
+  .formacao-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
   }
 }
