@@ -10,4 +10,11 @@
 /* UTILIDADES */
 @import "../css/utilidades/componentes.css";
 @import "../css/utilidades/tipografia.css";
-@import "../css/utilidades/cores.css"
+@import "../css/utilidades/cores.css";
+
+/* BICICLETAS */
+@import "../css/bicicletas/bicicletas-lista.css";
+
+
+
+
