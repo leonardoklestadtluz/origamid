@@ -4,8 +4,9 @@
 /* HEADER */
 @import "../css/global/header.css";
 
-/* MAIN */
+/* HOME */
 @import "../css/home/introducao.css";
+@import '../css/home/tecnologia.css';
 
 /* UTILIDADES */
 @import "../css/utilidades/componentes.css";
@@ -14,6 +15,7 @@
 
 /* BICICLETAS */
 @import "../css/bicicletas/bicicletas-lista.css";
+
 
 
 
