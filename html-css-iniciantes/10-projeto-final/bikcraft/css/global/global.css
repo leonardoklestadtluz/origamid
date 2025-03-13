@@ -6,7 +6,8 @@ body {
   padding-bottom: 600px; /* temporário */
 }
 
-h1, h2, h3, h4, ul, p {
+h1, h2, h3, h4, 
+ul, p, blockquote {
   margin: 0px;
 }
 
