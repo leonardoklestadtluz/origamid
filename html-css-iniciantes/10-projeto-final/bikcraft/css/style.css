@@ -1,8 +1,7 @@
 /* GLOBAL */
 @import "../css/global/global.css";
-
-/* HEADER */
 @import "../css/global/header.css";
+@import "../css/global/footer.css";
 
 /* HOME */
 @import "../css/home/introducao.css";
@@ -20,6 +19,9 @@
 
 /* SEGUROS */
 @import "../css/seguros/seguro.css";
+
+/* TERMOS */
+@import "../css/termos/termos.css";
 
 
 
