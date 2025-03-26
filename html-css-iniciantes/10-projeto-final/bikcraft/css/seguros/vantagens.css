@@ -5,6 +5,8 @@
   padding-bottom: 120px;
 }
 
+.vantagens h2 {margin-bottom: 60px;}
+
 .vantagens ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
