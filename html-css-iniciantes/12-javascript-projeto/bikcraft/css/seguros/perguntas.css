@@ -46,9 +46,9 @@
   transform: rotate(180deg);
 }
 
-.perguntas dd {display: none;}
+.js .perguntas dd {display: none;}
 
-.perguntas dd.ativa {display:block}
+.js .perguntas dd.ativa {display:block}
 
 .perguntas dd {
   padding-left: 20px;
