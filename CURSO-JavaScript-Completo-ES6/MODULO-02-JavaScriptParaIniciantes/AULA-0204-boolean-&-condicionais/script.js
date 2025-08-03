@@ -111,19 +111,93 @@
 
 // O == faz uma comparação não tão estrita e o === faz uma comparação estrita, ou seja, o tipo de dado deve ser o mesmo quando usamos ===
 
-10 == '10' // true
-10 == 10 // true
-10 === '10' // false
-10 === 10 // true 
-10 != 15 // true
-10 != '10' // false
-10 !== '10' // true
+// 10 == '10' // true
+// 10 == 10 // true
+// 10 === '10' // false
+// 10 === 10 // true 
+// 10 != 15 // true
+// 10 != '10' // false
+// 10 !== '10' // true
 
-var x = 10
-console.log(x === 10);
+// var x = 10
+// console.log(x === 10);
 
-var x = '10'
-console.log(x === 10);
+// var x = '10'
+// console.log(x === 10);
 
-var x = '10'
-console.log(x !== 10);
+// var x = '10'
+// console.log(x !== 10);
+
+// Operadores lógicos ||
+
+// || = compara se ambas expressões são verdadeiras
+
+// true || true // true
+// true || false // false
+// false || true // false
+// 'Gato' || 'Cão' // 'Cão' --> aqui será retornado o valor
+// (5 - 5) || (5 + 5) // 0 --> aqui será retornado o valor
+// 'Gato' || false // false
+// (5 >= 5) || (3 < 6) // true
+
+// Se ambos valores forem true, ele irá retornar o último valor verificado. Se algum valorfor false, irá retornar o mesmo e não continuará veficando os próximos.
+
+// if ((5 - 5) || (5 + 5)) {
+//   console.log('verdadeiro');
+// } else {
+//   console.log('Falso')
+// }
+
+// var condicional = (5 - 10) || (5 + 5)
+// if (condicional) {
+//   console.log('verdadeiro')
+// } else {
+//   console.log('Falso')
+// }
+
+// Operadores Lógicos ||
+
+// || verifica se ao menos uma das expressões é verdadeira
+// true || true // true
+// true || false // true
+// false || true // true
+// 'Gato' || 'Cão' // 'Gato' --> aqui será retornado o valor
+// (5 - 5) || (5 + 5) // 10 --> aqui será retornado o valor
+// 'Gato' || false // 'Gato'
+// (5 >= 5) || (3 < 6) // true
+
+// Retorna o 1º valor true que encontrar
+
+
+// var condicional2 = (5-5) || (5+5) || (10-5)
+// console.log(condicional2)
+// if (condicional2) {
+//   console.log('Verdadeiro')
+// } else {
+//   console.log('Falso')
+// }
+
+// Switch
+// Com o switch você pode verificar se uma variável é igual a diferentes valores utilizando o case. Caso ela seja igual, você pode fazer alguma coisa e utilizar a palavra chave break para cancelar a continuação. O valor de default ocorrerá caso nenhuma das anteriores seja veradeira.
+
+var corFavorita = 'Rosa'
+switch (corFavorita) {
+  case 'Azul': 
+    console.log('Olhe para o céu.')
+    break
+    case 'Vermelho':
+      console.log('Olhe para rosas.')
+      break
+      case 'Amarelo':
+        console.log('Olhe para o sol.')
+        break
+        default:
+          console.log('Feche os olhos.')
+          break
+}
+
+
+
+
+
+
