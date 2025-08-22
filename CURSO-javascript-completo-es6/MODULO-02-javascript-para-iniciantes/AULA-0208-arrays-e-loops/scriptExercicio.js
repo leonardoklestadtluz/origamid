@@ -1,20 +1,33 @@
-// nomeie 3 propriedades ou métodos de strings
-var nome = 'leonardo'
-console.log(nome.charCodeAt())
-console.log(nome.length)
-console.log(nome.toUpperCase())
+// Crie uma array com os anos que o Brasil ganhou a copa 1959, 1962, 1970, 1994, 2002
+var brasilCampeao = [1959, 1962, 1970, 1994, 2002]
 
-// nomeie 5 propriedades ou métodos de elementos do DOM
-addEventListener
-onpageswap
-id
-innerText
-outerHTML
+// Interaja com a array utilizando um loop, para mostrar no console a seguinte mensagem, `O brasil ganhou a copa de ${ano}`
+brasilCampeao.forEach(function(ano) {
+  console.log(`O Brasil ganhou a copa de: ${ano}`)
+})
 
-// busque na web um objeto (método) capaz de interagir com o clipboard, 
-// clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
+// Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
+var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
+for(var fruta = 0; fruta < frutas.length; fruta++) {
+  console.log(frutas[fruta])
+  if (frutas[fruta] === 'Pera') {
+    break
+  }
+}
 
-// https://clipboardjs.com/
+
+// Coloque a última fruta da array acima em uma variável, sem remover a mesma da array.
+var ultimaFruta = frutas[frutas.length - 1]
+console.log(ultimaFruta)
+
+
+
+
+
+
+
+
+
 
 
 
