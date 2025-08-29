@@ -43,15 +43,26 @@
 
 // Toda tag html é representada pelo objeto Element e por isso herda os seus métodos e propriedades. Element é um tipo de objeto Node.
 
-const titulo = document.querySelector('h1');
+// const titulo = document.querySelector('h1');
 
-titulo.innerText; // retorna o texto;
-titulo.classList; // retorna as classes;
-titulo.id; // retorna o id;
-titulo.offsetHeight; // retorna a altura do elemento;
+// titulo.innerText; // retorna o texto;
+// titulo.classList; // retorna as classes;
+// titulo.id; // retorna o id;
+// titulo.offsetHeight; // retorna a altura do elemento;
 
-titulo.addEventListener('click', callback);
+// titulo.addEventListener('click', callback);
 // ativa a função callback ao click no titulo
+
+
+const h1Selecionado = document.querySelector('h1')
+const h1Classes = h1Selecionado.classList
+
+function callbackH1() {
+  console.log('Clicou em: ', h1Selecionado.innerText)
+}
+
+h1Selecionado.addEventListener('click', callbackH1)
+
 
 
 
