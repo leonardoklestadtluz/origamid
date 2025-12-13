@@ -181,14 +181,14 @@
 
 // Podemos passar argumentos padrões para uma função e retornar uma nova função.
 
-function imc(altura, peso) {
-  return peso / (altura * altura);
-}
+// function imc(altura, peso) {
+//   return peso / (altura * altura);
+// }
 
-const imc180 = imc.bind(null, 1.80);
+// const imc180 = imc.bind(null, 1.80);
 
-imc(1.80, 70); // 21.6
-imc180(70); // 21.6
+// imc(1.80, 70); // 21.6
+// imc180(70); // 21.6
 
 
 
